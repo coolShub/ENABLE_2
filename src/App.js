@@ -7,6 +7,10 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import CaptionImage from "./CaptionImage";
 import SignLanguage from "./SignLanguage";
 import SpeechToText from "./SpeechToText";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
+
 
 
 
@@ -18,7 +22,7 @@ function App() {
 
       <div className="app">
 
-      <Header/>
+      <Navbar/>
                   <Switch>
                 
 
@@ -49,6 +53,9 @@ function App() {
                     
 
                   </Switch>
+
+      <Footer/>
+
 
 
            
