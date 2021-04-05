@@ -10,9 +10,7 @@ import SpeechToText from "./SpeechToText";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-
-
-
+import HeroSection from "./HeroSection";
 
 
 function App() {
