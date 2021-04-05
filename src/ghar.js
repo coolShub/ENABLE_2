@@ -5,6 +5,10 @@ import ImageIcon from '@material-ui/icons/Image';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import MicIcon from '@material-ui/icons/Mic';
 import {Link} from "react-router-dom";
+import signLang from './images/signlang.jpg'
+import deaf from './images/deaf.jpg'
+import blind from './images/blind.jpg'
+
 
 function Home() {
     return (

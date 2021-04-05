@@ -30,7 +30,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            ENABLE
+            <img src={enable} alt="enable_logo" marginTop="90" width="110" height="110" />
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -60,8 +60,6 @@ function Navbar() {
                 Products
               </Link>
             </li>
-
-            
           </ul>
          
         </div>

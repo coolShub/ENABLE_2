@@ -1,9 +1,9 @@
 .cards {
-    padding: 4rem;
+    padding: 6rem;
     background: #fff;
   }
   
-  h1 {
+  h1,h3 {
     text-align: center;
   }
   
@@ -28,7 +28,7 @@
   .cards__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    margin: 20px;
     border-radius: 10px;
   }
   

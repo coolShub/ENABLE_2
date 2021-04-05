@@ -1,7 +1,4 @@
-
 import './App.css';
-
-import Header from "./Header";
 import Home from "./Home";
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import CaptionImage from "./CaptionImage";
@@ -9,9 +6,6 @@ import SignLanguage from "./SignLanguage";
 import SpeechToText from "./SpeechToText";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-
-import HeroSection from "./HeroSection";
-
 
 function App() {
   return (
@@ -40,24 +34,13 @@ function App() {
 
                           <Route path="/speech">
                                         
-                                  <SpeechToText/>  
-                                        
+                                  <SpeechToText/>        
                           </Route>
-
                           <Route path="/">
-                      
                         <Home/>
-
-
                           </Route>
-                    
-
                   </Switch>
-
       <Footer/>
-
-
-
            
       </div>
       </Router>

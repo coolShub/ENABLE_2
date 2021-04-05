@@ -1,31 +1,37 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import signLang from './images/signlang.jpg'
+import deaf from './images/deaf.jpg'
+import blind from './images/blind.jpg'
+
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Not disabled,just differently-abled</h1>
+      <h3>It doesn't define who you are!!</h3>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           
           <ul className='cards__items'>
+
             <CardItem
-              src="https://raw.githubusercontent.com/coolShub/Enable/main/src/images/deaf.jpg"
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src={deaf}
+              text='Having difficulty in seeing,use our Speech-To-Text Module '
+              label='SPEECHT-TO-TEXT'
               path='/services'
             />
             <CardItem
-              src="https://raw.githubusercontent.com/coolShub/Enable/main/src/images/blind.jpg"
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src={blind}
+              text='Having difficulty in listening,use our Text-To-Speech Module'
+              label='TEXT-TO-SPEECH'
               path='/products'
             />
             <CardItem
-              src="https://raw.githubusercontent.com/coolShub/Enable/main/src/images/signlang.jpg"
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src={signLang}
+              text='Having difficulty in communications,talk via Sign Language'
+              label='SIGN-LANGUAGE GENERATOR'
               path='/sign-up'
             />
           </ul>
