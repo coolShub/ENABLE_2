@@ -28,6 +28,8 @@ function App() {
 
                           <Route path="/sign">
                           
+
+
                             <SignLanguage/>
                             
                           </Route>
@@ -46,7 +48,7 @@ function App() {
 
                           <Route path="/">
                       
-                          <Home/>
+                        <Home/>
 
 
                           </Route>
